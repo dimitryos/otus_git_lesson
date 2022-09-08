@@ -20,11 +20,7 @@ footer {
 	padding: 1rem 0 3rem 0;
 }
 
-.row {
-	display: flex;
-	justify-content: center;
-}
-
+/* плитка */
 .tile {
 	width: 350px;
 	background-color: beige;
@@ -35,27 +31,32 @@ footer {
 	box-sizing: border-box;
 }
 
+/* значок плитки */
 .feature_icon {
 	width: 2em;
 	height: 2em;
 	margin-bottom: 2em;
 }
 
+/* текстовое описание */
 .tile p {
 	text-align: justify;
 	margin-bottom: 3em;
 }
 
+/* ссылка на детальное описание плитки */
 a.expand {
 	color: #8C30F5;
 	text-decoration: none;
 }
 
+/* контейнер навигационных кнопок */
 .explore {
 	display: flex;
 	justify-content: center;
 }
 
+/* кнопка "Explore all" */
 .explore button {
 	background-color: black;
 	border-radius: 0.4em;
