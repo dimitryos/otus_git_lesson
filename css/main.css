@@ -32,6 +32,11 @@ main {
 	height: 2em;
 }
 
+a.expand {
+	color: #8C30F5;
+	text-decoration: none;
+}
+
 .explore {
 	display: flex;
 	justify-content: center;
