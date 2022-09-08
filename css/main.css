@@ -8,6 +8,11 @@ header {
 	text-align: center;
 }
 
+main {
+	display: flex;
+	justify-content: center;
+}
+
 .explore {
 	display: flex;
 	justify-content: center;
