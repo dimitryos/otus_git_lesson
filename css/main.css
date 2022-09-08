@@ -19,6 +19,14 @@ main {
 	justify-content: center;
 }
 
+.tile {
+	width: 24%;
+	background-color: beige;
+	color: black;
+	border-radius: 0.4rem;
+	margin: 0 1rem 1rem 0;
+}
+
 .explore {
 	display: flex;
 	justify-content: center;
