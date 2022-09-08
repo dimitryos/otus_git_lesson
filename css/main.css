@@ -6,12 +6,18 @@ body {
 
 header {
 	text-align: center;
+	padding: 2rem 0 0.5rem 0;
 }
 
 main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+footer {
+	padding: 0.5rem 0 3rem 0;
 }
 
 .row {
@@ -53,6 +59,5 @@ a.expand {
 	background-color: black;
 	border-radius: 0.4em;
 	color: beige;
-	width: 8em;
-	padding: 0.7em 0;
+	padding: 1em 1.2em 1em 1.2em;
 }
