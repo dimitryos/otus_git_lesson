@@ -1,5 +1,7 @@
 body {
 	font-family: "Tahoma", sans-serif;
+	background-color: black;
+	color: beige;
 }
 
 header {
@@ -9,4 +11,12 @@ header {
 .explore {
 	display: flex;
 	justify-content: center;
+}
+
+.explore button {
+	background-color: black;
+	border-radius: 4px;
+	color: beige;
+	width: 8em;
+	padding: 0.7em 0;
 }
