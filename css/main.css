@@ -1,5 +1,5 @@
 body {
-	font-family: "Tahoma", sans-serif;
+	font-family: "Manrope", "Tahoma", sans-serif;
 	background-color: black;
 	color: beige;
 }
@@ -20,11 +20,16 @@ main {
 }
 
 .tile {
-	width: 24%;
+	width: 20%;
 	background-color: beige;
 	color: black;
 	border-radius: 0.4em;
 	margin: 0 1em 1em 0;
+	padding: 2.1em 2em;
+}
+
+.tile p {
+	text-align: justify;
 }
 
 .feature_icon {
