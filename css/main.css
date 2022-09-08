@@ -28,13 +28,15 @@ main {
 	padding: 2.1em 2em;
 }
 
-.tile p {
-	text-align: justify;
-}
-
 .feature_icon {
 	width: 2em;
 	height: 2em;
+	margin-bottom: 2em;
+}
+
+.tile p {
+	text-align: justify;
+	margin-bottom: 3em;
 }
 
 a.expand {
