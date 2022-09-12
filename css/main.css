@@ -6,57 +6,62 @@ body {
     font-family: Nunito, sans-serif;
 }
 
+/* положение и оформление основного заголовочного элемента */
 h1 {
     margin-top: 6rem;
     background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /*background-clip: border-box;*/
-    /*text-fill-color: transparent;*/
 }
 
 .navbar {
     padding: 1rem 0 1rem 0;
 }
 
+/* фон навигационной панели */
 #row_top_bar {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 14.06%, rgba(255, 255, 255, 0.8) 85.42%, rgba(255, 255, 255, 0) 100%);
     backdrop-filter: blur(111px);
 }
 
+/* регулировка вертикального выравнивания кнопок меню основных разделов */
 .dropdown {
     padding-top: 0.2rem;
 }
 
-#user_session_nav {
-    font-family: Nunito-Bold, sans-serif;
-}
-
+/* кнопки сессии пользователя */
 #user_session_nav a {
+    font-family: Nunito-Bold, sans-serif;
     padding: 0.6rem 1rem;
     margin-right: 1rem;
 }
 
+/* украшение кнопки "Sign Up" */
 #signup {
     /* Soft Shadow */
     box-shadow: 0 7px 20px rgba(49, 69, 255, 0.13);
     border-radius: 8px;
 }
 
+/* положение блока с кнопкой "Check demo" */
 #button_check_demo {
     margin-top: 3.5em;
 }
 
+/* украшение кнопки "Check demo" */
 #button_check_demo button {
     background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
     color: #fff;
 }
 
+/* стиль для отображения жирного текста */
 .text-bold {
     font-family: 'Nunito-Bold', sans-serif;
 }
 
+/* МЕДИАЗАПРОСЫ */
 
+/* Улучшить отображение заголовочных элементов */
 @media screen and (max-width: 1024px) {
     h1 {
         margin-top: 2rem;
@@ -68,6 +73,7 @@ h1 {
     }
 }
 
+/* На небольших экранах убрать иллюстрацию команды, поскольку большая её часть всё равно скрыта под навигационной панелью */
 @media screen and (max-width: 980px) {
     body {
         background-image: url('../images/cloud.svg');
@@ -77,7 +83,7 @@ h1 {
     }
 }
 
-
+/* Уменьшить размеры заголовков */
 @media screen and (max-width: 570px) {
     h1 {
         font-size: 1.4rem;
@@ -89,15 +95,18 @@ h1 {
 }
 
 @media screen and (max-width: 370px) {
+    /* уменьшить верхний отступ кнопки "Check demo" */
     #button_check_demo {
         margin-top: 2rem;
     }
 
+    /* Уменьшить размер текста описания предлагаемых услуг */
     #team_offers_text {
         font-size: 0.8rem;
     }
 }
 
+/* максимально расширяется область текстового контента */
 @media screen and (max-width: 320px) {
     #text_content {
         padding-left: 0;
