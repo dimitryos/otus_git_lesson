@@ -17,11 +17,11 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
+	<div class="container-fluid">
+		<div class="row" id="row_top_bar">
 			<div class="col-1"></div>
 			<div class="col-10">
-				<nav class="navbar">
+				<nav class="navbar justify-content-around">
 					<div class="navbar-nav flex-row flex-start align-items-center">
 						<a class="navbar-brand" href="#"><img src="images/Logo.png" alt="Логотип"></a>
 						<div class="dropdown">
@@ -55,11 +55,19 @@
 							</div>
 						</div>
 					</div>
-					<div class="navbar-nav flex-row flex-end" id="user_session_nav">
+					<div class="navbar-nav flex-row flex-start justify-content-between" id="user_session_nav">
 						<a class="nav-link" href="#">Log In</a>
-						<a class="nav-link" href="#">Sign Up</a>
+						<a class="nav-link" href="#" id="signup">Sign Up</a>
 					</div>
 				</nav>
+			</div>
+			<div class="col-1"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-10">
 			</div>
 			<div class="col-1"></div>
 		</div>
