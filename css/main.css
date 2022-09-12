@@ -1,0 +1,6 @@
+body {
+    background-image: url('../images/cloud.svg'), url('../images/team2.png');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
