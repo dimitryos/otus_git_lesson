@@ -19,11 +19,14 @@
 <body>
 	<div class="container-fluid">
 		<div class="row" id="row_top_bar">
-			<div class="col-1"></div>
-			<div class="col-10">
-				<nav class="navbar justify-content-around">
-					<div class="navbar-nav flex-row flex-start align-items-center">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<!-- навигационная панель -->
+				<nav class="navbar navbar-expand-lg justify-content-between">
+					<!-- Логотип + Разделы основного меню -->
+					<div class="navbar-nav flex-start">
 						<a class="navbar-brand" href="#"><img src="images/Logo.png" alt="Логотип"></a>
+
 						<div class="dropdown">
 							<a class="btn btn-ghost-dark dropdown-toggle" data-toggle="dropdown">Home</a>
 							<div class="dropdown-menu">
@@ -55,21 +58,33 @@
 							</div>
 						</div>
 					</div>
-					<div class="navbar-nav flex-row flex-start justify-content-between" id="user_session_nav">
+
+					<!-- Кнопки пользовательской сессии -->
+					<div class="navbar-nav flex-start" id="user_session_nav">
 						<a class="nav-link" href="#">Log In</a>
 						<a class="nav-link" href="#" id="signup">Sign Up</a>
 					</div>
 				</nav>
 			</div>
-			<div class="col-1"></div>
+			<div class="col-2"></div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-10">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<h2 class="text-bold">Bootstrap 5 theme</h2>
+				<h3>crafted by ThemeWagon</h3>
+				<p>
+					ThemeWagon offers an wide array of category-oriented
+					Free and Premium  Bootstrap HTML Templates and Themes
+				</p>
+				<div>
+					<button>Check Demo</button>
+				</div>
 			</div>
-			<div class="col-1"></div>
+			<div class="col-2"></div>
 		</div>
 	</div>
 </body>
