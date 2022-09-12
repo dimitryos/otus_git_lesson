@@ -38,8 +38,12 @@ body {
     font-family: 'Nunito-Bold', sans-serif;
 }
 
-/*@media screen and (max-width: 375px) {*/
-/*    body {*/
-/*        background-size: 100%;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 570px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
